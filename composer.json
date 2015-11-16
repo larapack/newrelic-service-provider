@@ -2,6 +2,7 @@
     "name": "larapack/newrelic-service-provider",
     "version": "1.0",
     "description": "A newrelic service provider to set appname to be equals to the domain name.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mark Topper",
