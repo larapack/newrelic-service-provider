@@ -1,0 +1,25 @@
+{
+    "name": "larapack/newrelic-service-provider",
+    "version": "1.0",
+    "description": "A newrelic service provider to set appname to be equals to the domain name.",
+    "authors": [
+        {
+            "name": "Mark Topper",
+            "email": "hi@webman.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+    },
+    "autoload": {
+        "psr-0": {
+            "Larapack\\NewRelicServiceProvider": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
