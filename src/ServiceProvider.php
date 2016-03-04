@@ -15,8 +15,8 @@ class ServiceProvider extends BaseServiceProvider
     public function boot()
     {
         if (extension_loaded('newrelic')) {
-			      newrelic_set_appname(Request::getHost());
-		    }
+            newrelic_set_appname(Request::getHost());
+        }
     }
 
     /**
