@@ -1,4 +1,23 @@
-# newrelic-service-provider
-A newrelic service provider to set appname to be equals to the domain name.
+# NewRelic Service Provider
+This service provider set the NewRelic Application Name to be equals to the Domain Name.
 
-For Laravel 5.1: `composer require larapack/newrelic-service-provider` and then add `Larapack\NewRelicServiceProvider\ServiceProvider::class,` to `providers` in your `app`-config.
+Install running
+```
+composer require larapack/newrelic-service-provider
+```
+
+Then add the service provider to your application providers 
+```
+'providers' => [
+    // Laravel Providers...
+    // ...
+    
+    // Package Providers...
+    Larapack\NewRelicServiceProvider\ServiceProvider::class,
+    
+    // Application Providers...
+    // ...
+]
+```
+
+Then your good to go!
