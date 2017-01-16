@@ -18,14 +18,4 @@ class ServiceProvider extends BaseServiceProvider
             newrelic_set_appname(Request::getHost());
         }
     }
-
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
-    }
 }
