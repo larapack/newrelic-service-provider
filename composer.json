@@ -1,6 +1,5 @@
 {
     "name": "larapack/newrelic-service-provider",
-    "version": "1.0",
     "description": "A newrelic service provider to set appname to be equals to the domain name.",
     "license": "MIT",
     "authors": [
@@ -11,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*"
+        "laravel/framework": ">=5.1.0"
     },
     "autoload": {
         "psr-0": {
